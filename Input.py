@@ -38,6 +38,7 @@ class Input:
       credit_amount = int(credit_amount[1:])
       self.card_book[given_name].credit(credit_amount)
 
+  # displays the current summary of the credit cards within the dictionary
   def summary(self):
     sorted_card_book = dict(sorted((self.card_book.items)(), key=lambda x: x[0].lower()))
     for key in sorted_card_book:
