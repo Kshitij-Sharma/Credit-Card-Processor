@@ -8,7 +8,7 @@ As stated, I used the dictionary data structure simply because it wsa very easy 
 
 2. My implementation of this project was split into three parts:
   - **BTProcessor.py** - This class is quite simple, it handles the two cases of the input.txt file, through STDIN and read from file. Both forms of ./myprogram input.txt' and './myprogram < input.txt are functional. Additionally, this class breaks down the text file into lines and feeds it into the Input class for further processing.
-  - **Input.py** - This file takes a broken down input of the text file and processes the right action for the commands detailed within the text, routing the program to add a card, charge/credit someone, or even all three in a row. It will also display a summary proper summary of the data.
+  - **Input.py** - This file takes a broken down input of the text file and processes the right action for the commands detailed within the text, routing the program to add a card, charge/credit someone, or even all three in various ways. It will also display a summary proper summary of the data.
   - **CreditCard.py** - At the lowest level of abstraction, this class builds the Credit Card itself, having checkers for proper card validation, and the ability to adust the account values based on charge and credit actions.
   
 3. Additionally, **InputTester.py** tests various cases from validating the Luhn 10 algorithm on some credit card numbers and making sure various Input.py and CreditCard.py functions work properly.
