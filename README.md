@@ -1,4 +1,4 @@
-# Basic Credit Card Processing - Kshitij Sharma
+# Basic Credit Card Processing
 
 ## Language Style & Design Decision Overview
 
@@ -53,9 +53,3 @@ Lisa: $-93
 Quincy: error
 Tom: $500
 ```
-
-
-
-
-
-# BT
