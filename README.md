@@ -4,7 +4,7 @@
 
 1. The goal when building this project was to emphasize neat and organized code that is separated into blocks for not only easy reading, but debugging as well. At first, I tried using C++, however I got very confused with syntax dealing with various things such as type casting, reading SDTDIN/command line arguments and using the dictionary/hash map data structure all of which Python and its libraries handled with ease (felt like an early Christmas present). 
 
-As stated, I used the dictionary data structure simply because it wsa very easy to store the credit card information in which the key was the name of the person and the value was the credit card itself.
+As stated, I used the dictionary data structure simply because it was very easy to store the credit card information in which the key was the name of the person and the value was the credit card itself.
 
 2. My implementation of this project was split into three parts:
   - **BTProcessor.py** - This class is quite simple, it handles the two cases of the input.txt file, through STDIN and read from file. Both forms of ./myprogram input.txt' and './myprogram < input.txt are functional. Additionally, this class breaks down the text file into lines and feeds it into the Input class for further processing.
