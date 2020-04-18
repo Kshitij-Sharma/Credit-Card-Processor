@@ -30,7 +30,6 @@ As stated, I used the dictionary data structure simply because it was very easy 
 1. cd path/to/folder/Braintree
 ```
  python3 InputTester.py
-
 ```
 
 ## Requirements
